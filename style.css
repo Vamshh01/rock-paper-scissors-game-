@@ -1,0 +1,160 @@
+*{
+    margin: 0px;
+    padding :0px;
+}
+h1{
+    height: 4rem;
+    background-color:#003459;
+    color: white;
+    text-align: center;
+   word-spacing: 10px;
+   line-height: 4rem;
+}
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 53px;
+    height: 200px;
+    
+    margin-top: 8rem;
+}
+.choice{
+    height: 200px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+img{
+    height: 190px;
+    width: 190px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.scoreboard {
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    display: flex;
+    height: 200px;
+    
+}
+#userscore , #computerscore{
+    font-size: 4rem;
+   margin-left: 27px;
+}
+.msgcontainer{
+    display: flex;
+    justify-content: center;
+
+}
+#msg {
+    margin-top: 2rem;
+    border-radius: 1rem;
+    padding: 17px;
+    font-size: 2rem;
+    background-color: #003459;
+    color: white;
+}
+.choice:hover{
+    background-color: black;
+   border-radius: 50%;
+}
+
+#resetGame {
+    height: 41px;
+    font-size: 1rem;
+    background-color: white;
+    color: black;
+    padding: 9px;
+    border-radius: 42px;
+}
+.alignment {
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#footermain {
+    background-color: grey;
+    color: white;
+    margin-top: 13rem;
+    height: 74px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+nav{
+    margin-top: 52px;
+    margin-left: -355px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+@media screen and (max-width:600px){
+    h1{
+        height: 3rem;
+        background-color: #003459;
+        color: white;
+        text-align: center;
+        word-spacing: 10px;
+        line-height: 3rem;
+        font-size: 1.5rem;
+    }
+    .choices {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 45px;
+        height: 80px;
+        margin-top: 6rem;
+    }
+
+    .choice{
+        height: 80px;
+        width: 80px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    img {
+        height: 105px;
+        width: 105px;
+        object-fit: cover;
+        border-radius: 50%;
+    }
+    .scoreboard {
+        gap: 5rem;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        display: flex;
+        height: 200px;
+        margin-top: 27px;
+    }
+    .msgcontainer {
+        display: flex;
+        justify-content: center;
+    }
+    #msg {
+        margin-top: 1rem;
+        border-radius: 1rem;
+        padding: 9px;
+        font-size: 1.5rem;
+        background-color: #003459;
+        color: white;
+    }
+    #footermain{
+        background-color: grey;
+        color:white;
+        margin-top: 13rem;
+    }
+    nav a {
+        text-decoration: none;
+        color: white;
+    }
+  }
